@@ -6,7 +6,7 @@ html, body, #home-screen{
 	height: 100vh;
 }
 body{
-	font-family: Helvetica, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 #page-home{
@@ -17,4 +17,7 @@ a{
 }
 li {
     list-style: none;
+}
+p{
+    text-align: justify;
 }
