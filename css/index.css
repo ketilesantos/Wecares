@@ -31,6 +31,7 @@ header nav.navbar-light .navbar-nav .nav-link:hover{
 	margin-top: 55px;
 	margin-bottom: 55px;
 	color:white;
+	font-family: 'Roboto', sans-serif;
 }
 #home-screen a.btn-custom{
 	color:white;
@@ -86,6 +87,9 @@ section.bg-blue{
 section.bg-blue p{
  	padding: 10px 0;
  }
+ section p{
+	font-size: 18px;
+ }
  section img{
 	display: flex;
 	margin: 0 auto;
@@ -115,5 +119,5 @@ footer .navbar-nav li a:hover{
 footer .icon li{
 	list-style: none;
 	float: right;
-	margin:0 5px;
+	margin:10px 5px;
 }
