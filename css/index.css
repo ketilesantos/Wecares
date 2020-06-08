@@ -1,0 +1,119 @@
+/* Start menu navigation*/
+header nav.nav-transparente{
+	padding: 20px 8px;
+	background: rgba(0,0,0,0.2);
+}
+header nav.navbar-light .navbar-nav .nav-link{
+	color:white;
+}
+header nav.navbar-light .navbar-nav .nav-link:hover{
+	color:#81F7F3;
+}
+.navbar-light .navbar-toggler{
+	color: rgba(0,0,0.5);
+	border-color: rgba(255,255,255,.5);
+}
+#nav-top .navbar-nav .divider-elements{
+	width: 1px;
+	background:white;
+	margin:12px 15px; 
+}
+/* Start home screen*/
+#home-screen{
+	background-image: linear-gradient(to right,#5882FA,#0000FF);
+}
+#home-screen .main-screen{
+	text-align: center;
+}
+#home-screen h1{
+	font-weight: 900;
+	letter-spacing: -0.02em;
+	margin-top: 55px;
+	margin-bottom: 55px;
+	color:white;
+}
+#home-screen a.btn-custom{
+	color:white;
+	border-radius: 500px;
+	-webkit-border-radius:500px;
+	-moz-border-radius:500px;
+	text-transform: uppercase;
+	transition: background 0.4s, color 0.4s;
+	padding: 10px 20px;
+}
+#home-screen a.btn-custom{
+	border:2px solid white;
+}
+#home-screen a.btn-custom:hover{
+	background-color:white;
+	color:black;
+ }
+ #home-screen .carousel-control-next, .carousel-control-prev{
+ 	width: 3%;
+ }
+ #home-screen .svg-border-rounded svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3rem;
+    width: 100%;
+ }
+#home-screen svg{
+   	overflow:hidden;
+   	vertical-align: middle;
+}
+#home-screen svg {
+	overflow-x: hidden;
+    vertical-align: middle;
+}
+/* Start Sections*/
+section.content{
+	padding: 60px 0;
+	border-bottom: 1px solid #e5e5e5; 
+}
+section.content p{
+	padding-top: 10px;
+}
+section.content i.fas{
+	font-size: 200px;
+ }
+ section.bg-blue{
+	padding: 50px 0;	
+}
+section.bg-blue{
+	background: #0040FF;
+  }
+section.bg-blue p{
+ 	padding: 10px 0;
+ }
+ section img{
+	display: flex;
+	margin: 0 auto;
+}
+/* Start Footer*/
+footer{
+ 	background: #0040FF;
+ 	padding:50px 0px 25px 0px;
+ }
+
+footer h4{
+	font-size: 1.2em;
+	color:#E6E6E6;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+	font-size: 0.9em;
+	color: white;
+
+ }
+footer .navbar-nav li a:hover{
+	text-decoration: none;
+	color: #000000;
+}
+
+footer .icon li{
+	list-style: none;
+	float: right;
+	margin:0 5px;
+}
